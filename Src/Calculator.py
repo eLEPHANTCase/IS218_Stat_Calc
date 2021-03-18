@@ -1,6 +1,5 @@
 # Calculator class
-from Arithmetic import *
-
+import MathOps
 
 class Calculator:
     result = 0
@@ -9,7 +8,7 @@ class Calculator:
         pass
 
     def add(self, a, b):
-        self.result = Arithmetic.addition(a, b)
+        self.result = MathOps.add(a, b)
         return self.result
 
     def subtract(self, a, b):
