@@ -1,0 +1,4 @@
+class MathOps:
+
+    @staticmethod
+    def

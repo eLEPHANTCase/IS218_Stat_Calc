@@ -1,6 +1,9 @@
+import math
+import numpy
+
 # Operations for Calculator
 
-class Arithmetic:
+class MathOps:
 
     @staticmethod
     def addition(a, b):
@@ -21,6 +24,16 @@ class Arithmetic:
             raise ZeroDivisionError
 
     @staticmethod
-    def multiply(a, b):
+    def multiplication(a, b):
         result = (a * b)
+        return result
+
+    @staticmethod
+    def squareRoot(a):
+        result = math.sqrt(a)
+        return result
+
+    @staticmethod
+    def square(a):
+        result = (a*a)
         return result
